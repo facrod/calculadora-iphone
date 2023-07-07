@@ -1,0 +1,41 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+.contenedor {
+  width: 20vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contenedor input,
+button {
+  margin-top: 5px;
+  font-size: 1.5rem;
+  margin-right: 5px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 5rem;
+  padding: 1rem;
+  background-color: rgb(228, 150, 7);
+  transition: 0.4s ease;
+}
+#botonNumb {
+  background-color:rgb(63, 63, 63);
+  color: white;
+  transition: 0.6s ease;
+
+}
+.contenedor button#botonNumb:active {
+  background-color: rgb(168, 167, 167);
+  transition: -1s;
+}
+
+.active {
+  background-color: white;
+  color: darkorange;
+}
